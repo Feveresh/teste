@@ -1,0 +1,71 @@
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  background-color: #fbe9d7;
+  color: #ffffff;
+}
+
+/* Definir a fonte personalizada */
+@font-face {
+    font-family: 'medieval';
+    src: url('medieval.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Estilizando o header */
+header {
+    background-color: #f96706;
+    padding: 10px 0;
+    text-align: center;
+    font-family: 'medieval', sans-serif;  /* Nome da fonte */
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+    .torre-left {
+      width: 366px;  /* Definindo o tamanho da imagem */
+      height: 550px;
+      position: absolute; /* Usando position absolute para controle de posição */
+      top: 0; /* Colocando a imagem no topo da tela */
+      left: 0; /* Colocando a imagem no lado esquerdo da tela */
+       z-index: 2; 
+    }
+
+    .torre-rigth {
+      width: 366px;  /* Definindo o tamanho da imagem */
+      height: 550px;
+      position: absolute; /* Usando position absolute para controle de posição */
+      top: 0; /* Colocando a imagem no topo da tela */
+      right: 0; /* Colocando a imagem no lado esquerdo da tela */
+       z-index: 2; 
+    }
+    
+  .zeus {
+     top: 0; /* Colocando a imagem no topo da tela */
+      right: 0; /* Colocando a imagem no lado esquerdo da tela */
+
+  }
+  
+  .gif {
+    position: absolute;
+    left: 0;
+  }
+
+.poseidon {
+  position: absolute;
+     right: 0;
+}
+
+.gif1{
+  position: absolute;
+  right: 0;
+   transform: scaleX(-1);
+}
+
+.container {
+  text-align: center; /* Centraliza o texto horizontalmente */
+  color: black;
+  margin-top: -250px;
+   font-family: 'medieval', sans-serif;
+   font-size: 20px;
+  }
